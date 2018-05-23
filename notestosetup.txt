@@ -1,1 +1,2 @@
-eeee
+to get the different files.
+https://github.com/coryhouse/pluralsight-redux-starter
