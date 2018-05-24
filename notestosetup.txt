@@ -2,3 +2,5 @@ to get the different files.
 https://github.com/coryhouse/pluralsight-redux-starter
 
 npm install // to install all packages from package.json
+
+np start -s // to star the project

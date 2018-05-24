@@ -5,6 +5,7 @@ class CoursesPage extends React.Component {
         return (
             <div>
                 <h1> Course </h1>
+                <h6>test</h6>
             </div>
         );
     }

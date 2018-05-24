@@ -17,6 +17,7 @@ export default {
     filename: 'bundle.js'
   },
   devServer: {
+    open: 'Google Chrome',
     contentBase: path.resolve(__dirname, 'src')
   },
   plugins: [
