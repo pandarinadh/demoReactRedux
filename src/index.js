@@ -8,8 +8,10 @@ import routes from './routes';
 import App from './components/App';
 import './styles/styles.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import {loadCourses} from './actions/courseActions';
 
 const store = configureStore();
+store.dispatch(loadCourses());
 
 render (
     <Provider store={store}>
