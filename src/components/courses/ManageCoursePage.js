@@ -40,6 +40,9 @@ class ManageCoursePage extends React.Component {
             Toastr.success('Success');
             this.context.router.push('/courses');
             
+        }).catch((error) => {
+            this.setState({saving: false});
+            Toastr.error(error);
         });
     }
 
