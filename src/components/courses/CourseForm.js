@@ -16,7 +16,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) =>{
             <InputSelect 
                 name="authorId"
                 label="Author"
-                value ={course.title}
+                value ={course.authorId}
                 defaultOption="select author"
                 options={allAuthors}
                 onChange ={onChange}
@@ -25,14 +25,14 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) =>{
             <InputText 
                 name="category"
                 label="Category"
-                value ={course.title}
+                value ={course.category}
                 onChange ={onChange}
                 error ={errors.title} />
 
             <InputText 
                 name="length"
                 label="Length"
-                value ={course.title}
+                value ={course.length}
                 onChange ={onChange}
                 error ={errors.title} />
 
